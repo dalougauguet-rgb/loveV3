@@ -218,7 +218,7 @@ body {
   transform: translate(-50%, 100%); /* commence en bas de l'enveloppe */
   border-radius: clamp(8px, 2.5vw, 12px);
   box-shadow: 0 10px 40px var(--shadow);
-  z-index: 2;
+  z-index: 6;
   overflow: visible;
   -webkit-overflow-scrolling: touch;
 }
@@ -303,5 +303,6 @@ button:active{transform:translateY(1px)}
 
 /* small responsive */
 @media (max-width:420px){.envelope{width:260px;height:168px}.letter{width:220px;height:120px}}
+
 
 
